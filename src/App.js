@@ -1,13 +1,10 @@
-import BasicTitle from "./components/BasicTitle";
-import { DefaultButton, HipsterButton } from "./components/Buttons";
+// import styled from "styled-components";
+import ComplexTitle from "./components/ComplexTitle";
 
 function App() {
   return (
     <div style={{ padding: "2rem" }}>
-      <BasicTitle special>styled component</BasicTitle>
-      <BasicTitle>styled component</BasicTitle>
-      <DefaultButton>click me</DefaultButton>
-      <HipsterButton>click me</HipsterButton>
+      <ComplexTitle title={"a more complex title"} />
     </div>
   );
 }
