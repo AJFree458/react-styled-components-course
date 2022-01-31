@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 const ComplexTitle = ({ title }) => {
   return (
-    <Wrapper>
+    <Wrapper className="bg-grey">
       <h1>{title}</h1>
       <div className="underline"></div>
+      <h2 className="title">random</h2>
     </Wrapper>
   );
 };
