@@ -3,10 +3,9 @@ import styled from "styled-components";
 
 const ComplexTitle = ({ title }) => {
   return (
-    <Wrapper className="bg-grey">
+    <Wrapper>
       <h1>{title}</h1>
       <div className="underline"></div>
-      <h2 className="title">random</h2>
     </Wrapper>
   );
 };
@@ -19,7 +18,7 @@ const Wrapper = styled.div`
   .underline {
     width: 5rem;
     height: 0.25rem;
-    background: #645cff;
+    background: var(--primary-color);
     margin: 0 auto;
   }
 `;
